@@ -25,12 +25,14 @@ def cnn_model_3D_3lyr_relu_dice(pretrained_weights=None, input_size=(25, 25, 25,
     # Constants
     chan_in = 4 #features.shape[4]
     in_shape = input_size #(25, 25, 25, 4)
+    #"start: Alex look here, Adam has a question"
     f1 = 24
     f2 = 48
     f3 = 64
     f4 = 64
     f5 = 48
     f6 = 24
+    #"end: Alex look here, Adam has a question"
     kernel_size = (3, 3, 3)
     pool_size = (2, 2, 2)
     strides = (1, 1, 1)
